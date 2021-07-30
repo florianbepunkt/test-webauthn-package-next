@@ -4,13 +4,13 @@
     "declaration": true,
     "esModuleInterop": true,
     "jsx": "react",
-    "lib": ["ES2018", "DOM"],
-    "module": "CommonJS",
+    "target": "ES2018",
+    "module": "ES2020",
     "moduleResolution": "node",
+    "lib": ["ES2018", "DOM"],
     "outDir": "lib",
     "strict": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "target": "ES6"
+    "suppressImplicitAnyIndexErrors": true
   },
   "include": ["src"],
   "exclude": [
